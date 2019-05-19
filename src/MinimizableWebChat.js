@@ -51,8 +51,8 @@ export default class extends React.Component {
 
   async handleFetchToken() {
     if (!this.state.token) {
-      const res = await fetch('https://webchat-mockbot.azurewebsites.net/directline/token', { method: 'POST' });
-      const { token } = await res.json();
+      //const res = await fetch('https://webchat-mockbot.azurewebsites.net/directline/token', { method: 'POST' });
+      const token = 'yBAq-XoF_kE.9YRJe2wxjboovSX74EBD5RtbRv5wdmvmw-UhkGVBwFI';
 
       this.setState(() => ({ token }));
     }
