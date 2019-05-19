@@ -12,11 +12,7 @@ export default class extends React.Component {
 
     this.state = {
       styleSet: createStyleSet({
-        backgroundColor: 'white',
-        bubbleBackground: 'rgba(0, 0, 255, .1)',
-        bubbleFromUserBackground: 'rgba(0, 255, 0, .1)',
-        botAvatarImage: 'https://www.councilofnonprofits.org/favicon.ico',
-        botAvatarInitials: 'NP',
+        backgroundColor: 'Transparent'
       })
     };
   }

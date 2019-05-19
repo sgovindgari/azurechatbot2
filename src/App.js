@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MinimizableWebChat from './MinimizableWebChat';
 
-import WebPageBackground from './fulpage.png';
+import WebPageBackground from './WebPage.jpeg';
 import './App.css';
 
 class App extends Component {
